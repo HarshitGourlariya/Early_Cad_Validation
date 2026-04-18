@@ -10,8 +10,8 @@ export default function HeroSection({ onOpenValidationCenter }) {
           <span className="section-kicker">Presentation-grade PCB validation</span>
           <h3>A modern product story for parser-led review, rule accuracy, and AI-assisted decisions.</h3>
           <p>
-            TraceWise is framed like a real product launch page: confident, structured, and grounded
-            in actual engineering workflow instead of generic dashboard styling.
+            This experience is framed like a real product launch page: confident, structured, and
+            grounded in actual engineering workflow instead of generic dashboard styling.
           </p>
           <div className="hero__actions">
             <button className="button button--primary" onClick={onOpenValidationCenter}>

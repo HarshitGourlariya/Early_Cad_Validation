@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__panel reveal is-visible">
         <div>
-          <span className="section-kicker">TraceWise</span>
+          <span className="section-kicker">PCB Validation</span>
           <h3>AI-assisted PCB validation presented like a product, not a prototype.</h3>
         </div>
         <p>

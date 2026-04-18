@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import Footer from "./components/Footer";
+import AboutSection from "./components/AboutSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import PipelineSection from "./components/PipelineSection";
@@ -75,10 +75,15 @@ export default function App() {
               Open Validation Center
             </button>
           </section>
-          <Footer />
+          <AboutSection />
         </main>
       ) : (
-        <ValidationCenter />
+        <>
+          <ValidationCenter />
+          <div className="app-secondary-shell">
+            <AboutSection />
+          </div>
+        </>
       )}
 
       <ScrollToTopButton />

@@ -50,7 +50,7 @@ export const featureSections = [
     kicker: "PCB Parser",
     title: "The parser is the engine block that teaches the platform what the board really is.",
     description:
-      "TraceWise reads actual `.kicad_pcb` and DXF design files, extracts geometry, routing, and structural board facts, and turns them into a clean truth layer for validation.",
+      "The platform reads actual `.kicad_pcb` and DXF design files, extracts geometry, routing, and structural board facts, and turns them into a clean truth layer for validation.",
     bullets: [
       "Real KiCad and DXF ingestion",
       "Board dimensions, drills, pads, traces, and nets",
@@ -175,7 +175,7 @@ export const featureSections = [
     kicker: "Potential Use",
     title: "The product fits engineering review moments where speed and confidence both matter.",
     description:
-      "TraceWise works best when a team needs early design feedback, drift awareness, and a polished way to explain technical findings to stakeholders.",
+      "This workflow works best when a team needs early design feedback, drift awareness, and a polished way to explain technical findings to stakeholders.",
     bullets: [
       "Prototype review before fabrication",
       "Revision drift monitoring for active programs",
